@@ -19,6 +19,6 @@
     "build": "webpack",
     "start": "webpack-dev-server"
   },
-  "author": "",
+  "author": "Malgorzata Dobrzanska",
   "license": "ISC"
 }
