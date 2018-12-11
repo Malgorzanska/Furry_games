@@ -15,7 +15,6 @@ function Game() {
 Game.prototype.index = function(x,y) {
     return x + (y * 10);
 };
-
 //Showing the elements game
 Game.prototype.showFurry = function() {
     this.board[ this.index(this.furry.x,this.furry.y) ].classList.add('furry');
@@ -23,7 +22,6 @@ Game.prototype.showFurry = function() {
 Game.prototype.showCoin = function() {
     this.board[ this.index(this.coin.x,this.coin.y) ].classList.add('coin');
 };
-
 //Start
 Game.prototype.startGame = function() {
     let self = this;
@@ -87,7 +85,7 @@ Game.prototype.gameOver = function () {
         clearInterval(this.idSetInterval);
         let theEnd = document.querySelector("#over");
         theEnd.classList.remove("invisible");
-        theEnd.querySelector("h1 span").textContent = this.score;
+        theEnd.querySelector("p span").textContent = this.score;
     }
 };
 module.exports = Game;
