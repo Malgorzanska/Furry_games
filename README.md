@@ -1,9 +1,9 @@
-FURRY GAME
+# FURRY GAME
 
-My first game created with JavaScript during the programming course.
+My first game created with JavaScript during the programming course.<br/><br/>
 
 Used technologies:
-HTML
-CSS
-JavaScript
-Webpack
+HTML<br/>
+CSS<br/>
+JavaScript<br/>
+Webpack<br/>
